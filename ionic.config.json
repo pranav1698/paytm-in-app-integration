@@ -1,0 +1,7 @@
+{
+  "name": "paytm-in-app-integration",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

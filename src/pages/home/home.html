@@ -1,0 +1,28 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content padding>
+  <form (ngSubmit)="pay()">
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="cash"></ion-icon>
+        </ion-label>
+        <ion-input type="number" [(ngModel)]="this.amount" name="amount"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="mail"></ion-icon>
+        </ion-label>
+        <ion-input [(ngModel)]="this.email" name="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="call"></ion-icon>
+        </ion-label>
+        <ion-input [(ngModel)]="this.phonenumber" name="phonenumber"></ion-input>
+      </ion-item>
+
+      <button ion-button type="submit" block>Pay with paytm</button>
+    </form>
+</ion-content>
